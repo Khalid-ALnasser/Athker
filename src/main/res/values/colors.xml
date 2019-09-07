@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="rong">#d0d0d0</color>
+    <color name="nm">#fe0303</color>
+    <color name="prog">#100365</color>
+    <color name="pt">#1de33b</color>
+    <color name="orogn">#000</color>
+</resources>

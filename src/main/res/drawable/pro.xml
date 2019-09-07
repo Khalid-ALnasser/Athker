@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/background">
+    <shape android:shape="oval">
+        <stroke android:width="1dp"
+         android:color="#000"/>
+
+    </shape>
+
+</item>
+
+    <item android:id="@+id/secondprog">
+
+        <clip android:clipOrientation="vertical"
+              android:gravity="center_vertical">
+
+
+            <shape android:shape="oval">
+
+                <stroke
+                        android:width="5dp"
+                      android:color="@color/orogn"  />
+<solid android:color="@color/orogn"/>
+
+            </shape>
+        </clip>
+
+
+    </item>
+    <item android:id="@+id/progg">
+        <clip android:clipOrientation="vertical"
+              android:gravity="center">
+
+            <shape android:shape="oval">
+
+                <stroke android:width="5dp"
+                        android:color="#ef54"
+
+                />
+              <solid android:color="#fff"/>
+            </shape>
+
+        </clip>
+
+    </item>
+
+        </layer-list>

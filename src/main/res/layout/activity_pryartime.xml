@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/backgroundneww"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".pryartime">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_margin="20dp"
+
+                  android:id="@+id/prarytimemain"
+                  android:orientation="vertical" android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true">
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/praytime"
+                      android:background="@drawable/edittext"
+                      android:layout_marginTop="15dp"
+                      android:layout_marginBottom="5dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="225dp"
+                      android:textSize="20sp"
+
+                      android:layout_height="wrap_content"
+                      android:textAlignment="center"
+
+                      android:id="@+id/txtf1"
+                      android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txtf2"
+                      android:textSize="20sp"
+                      android:text="صلاة الفجر"
+                      android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/praytime1"
+                      android:background="@drawable/edittext"
+                      android:layout_marginTop="30dp"
+
+                      android:orientation="horizontal">
+            <TextView android:layout_width="225dp"
+                      android:textAlignment="center"
+                      android:textSize="20sp"
+
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txtd1"
+                      android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txtd22"
+                      android:textSize="20sp"
+
+                      android:text="صلاة الظهر"
+                      android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/edittext"
+                      android:id="@+id/praytime2"
+                      android:layout_marginTop="30dp"
+
+                      android:orientation="horizontal">
+            <TextView android:layout_width="225dp"
+                      android:textSize="20sp"
+
+                      android:layout_height="wrap_content"
+                      android:textAlignment="center"
+
+                      android:id="@+id/txts11"
+                      android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txtss2"
+                      android:textSize="20sp"
+
+                      android:text="صلاة العصر"
+                      android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/praytime4"
+                      android:background="@drawable/edittext"
+                      android:layout_marginTop="30dp"
+
+                      android:orientation="horizontal">
+            <TextView android:layout_width="225dp"
+                      android:layout_height="wrap_content"
+                      android:textAlignment="center"
+                      android:id="@+id/txtg1"
+                      android:textSize="20sp"
+
+                      android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txtg2"
+                      android:textSize="20sp"
+
+                      android:text="صلاة المغرب"
+                      android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/praytime5"
+                      android:textSize="20sp"
+
+                      android:background="@drawable/edittext"
+                      android:layout_marginTop="30dp"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="225dp"
+                      android:layout_height="wrap_content"
+                      android:textAlignment="center"
+                      android:textSize="20sp"
+
+                      android:id="@+id/txte1"
+                      android:textStyle="bold"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/txte2"
+                      android:textSize="20sp"
+                      android:text="صلاة العشاء"
+                      android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

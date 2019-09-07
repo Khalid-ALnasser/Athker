@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RES1"
+        tools:context=".counter">
+
+    <LinearLayout android:layout_width="200dp"
+                  android:layout_height="wrap_content"
+                  android:gravity="right"
+                  android:id="@+id/lsss1"
+
+                  android:orientation="vertical" android:layout_alignParentEnd="true"
+                  android:layout_marginEnd="70dp" android:layout_alignTop="@+id/lands1">
+        <Button android:layout_width="200dp"
+                android:id="@+id/btns1"
+
+                android:text="أستغفر الله"
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="200dp"
+                android:id="@+id/btns2"
+                android:text="سبحان الله"
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="200dp"
+                android:id="@+id/btns3"
+                android:text="الحمد لله "
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  android:id="@+id/lsssm2" android:layout_alignParentStart="true"
+                  android:layout_alignParentBottom="true" android:layout_marginBottom="16dp">
+        <Button android:layout_width="172dp"
+                android:layout_margin="5dp"
+
+                android:layout_height="wrap_content"
+                android:id="@+id/lsss8"
+
+                android:text="الاحصائيات" android:layout_alignParentStart="true" android:layout_alignTop="@+id/lsss7"/>
+        <Button android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/lsss7"
+                android:text="أضف تسبيحة جديدة" android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginBottom="39dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="200dp"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:id="@+id/lands1" android:layout_alignParentStart="true" android:layout_marginStart="69dp"
+                  android:layout_alignParentTop="true" android:layout_marginTop="33dp">
+
+        <Button android:layout_width="200dp"
+                android:id="@+id/btns4"
+                android:text="الله أكبر "
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="200dp"
+                android:id="@+id/btns5"
+                android:text="لا إله الا الله "
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="200dp"
+                android:id="@+id/btns6"
+                android:text="اللهم صل على سيدنا محمد "
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>
